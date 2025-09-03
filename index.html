@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo Undangan Digital</title>
+  <style>
+    body, html { margin:0; height:100%; overflow:hidden; }
+    .bg { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; transform:scale(1); animation: zoomin 20s ease-in-out infinite alternate; z-index:-1; }
+    @keyframes zoomin { from { transform:scale(1); } to { transform:scale(1.2); } }
+    .content { position:relative; color:white; font-size:2rem; text-align:center; top:50%; transform:translateY(-50%); }
+  </style>
+</head>
+<body>
+  <img class="bg" src="https://i.postimg.cc/3RrQS6g9/countdown3-amir-indah.png" alt="Background">
+  <div class="content">
+    Undangan Digital Bang Amir<br>
+    Selamat datang!
+  </div>
+</body>
+</html>
